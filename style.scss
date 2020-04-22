@@ -1,0 +1,107 @@
+$grid-padding: 20px 10px;
+
+body{
+  background-color: lightblue;
+}
+
+head, body {
+  padding: 10px 10px 10px 15px;
+}
+
+#mylist {
+  .row > div {
+      padding: 5px 5px;
+      background-color: cyan;
+      border: 2px solid black;
+  }
+  color: yellow;
+}
+
+
+.row > div {
+
+    background-color: white;
+
+}
+.col-3 > li{
+  color: white;
+}
+
+.grid {
+    background-color: red;
+    display: grid;
+    padding: $grid-padding;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto auto auto  auto;
+    text-align: center;
+
+    a{
+      font-size: 24px
+
+    }
+}
+    .header{
+          background-color: white;
+          font-size: 20px;
+          font-weight: 700;
+          padding: $grid-padding;
+          text-align: center;
+    }
+
+    .item {
+        background-color: white;
+        font-size: 20px;
+        padding: $grid-padding;
+
+    }
+
+%mechanics{
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid black;
+  padding: $grid-padding;
+}
+
+.charges{
+  @extend %mechanics;
+  background-color: cyan;
+}
+
+.inflict{
+  @extend %mechanics;
+  background-color: grey;
+}
+
+.drawback{
+  @extend %mechanics;
+  background-color: red;
+}
+
+.recharge{
+  @extend %mechanics;
+  background-color: pink;
+}
+
+.empower{
+  @extend %mechanics;
+  background-color: green;
+}
+
+.summon{
+  @extend %mechanics;
+  background-color: black;
+  color: white;
+}
+.capture{
+  @extend %mechanics;
+  background-color: magenta;
+
+}
+
+
+
+
+p, li {
+  font-weight: 700;
+}

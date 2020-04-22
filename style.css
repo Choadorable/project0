@@ -1,0 +1,74 @@
+body {
+  background-color: lightblue; }
+
+head, body {
+  padding: 10px 10px 10px 15px; }
+
+#mylist {
+  color: yellow; }
+  #mylist .row > div {
+    padding: 5px 5px;
+    background-color: cyan;
+    border: 2px solid black; }
+
+.row > div {
+  background-color: white; }
+
+.col-3 > li {
+  color: white; }
+
+.grid {
+  background-color: red;
+  display: grid;
+  padding: 20px 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template-columns: auto auto auto  auto;
+  text-align: center; }
+  .grid a {
+    font-size: 24px; }
+
+.header {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 10px;
+  text-align: center; }
+
+.item {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px 10px; }
+
+.charges, .inflict, .drawback, .recharge, .empower, .summon, .capture {
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid black;
+  padding: 20px 10px; }
+
+.charges {
+  background-color: cyan; }
+
+.inflict {
+  background-color: grey; }
+
+.drawback {
+  background-color: red; }
+
+.recharge {
+  background-color: pink; }
+
+.empower {
+  background-color: green; }
+
+.summon {
+  background-color: black;
+  color: white; }
+
+.capture {
+  background-color: magenta; }
+
+p, li {
+  font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
